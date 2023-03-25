@@ -1,0 +1,32 @@
+.NavBar-nav{
+
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    opacity: 0.5;
+    top: 0;
+    position: sticky;
+    align-self: flex-start;
+}
+
+.nav-h2{
+    color: white;
+    padding: 1.5rem;
+    font-size: 3rem;
+}
+
+.nav-categories{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    width: 30rem;
+}
+
+.nav-button{
+    width: 7rem;
+    font-size: 2rem;
+    border-right: 2px solid white;
+    text-decoration: none;
+    color: white;
+}
