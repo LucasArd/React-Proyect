@@ -6,6 +6,9 @@ const CartWidgets = () =>{
     return (
         <div className='containerCartW'>
             <FontAwesomeIcon icon = {faCartShopping} size ="2xl" style = {{color:"white"}}/> 
+            <div>
+                0
+            </div>
             
         </div>
     )

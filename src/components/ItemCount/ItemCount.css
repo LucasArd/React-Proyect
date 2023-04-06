@@ -1,0 +1,12 @@
+.Controls{
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    justify-content: center;
+}
+
+.Button-agregar{
+    margin-top: 1rem;
+    width: 7rem;
+}
+
