@@ -1,6 +1,7 @@
 import Card from 'react-bootstrap/Card';
 import './items.css';
-import ItemCount from '../ItemCount/ItemCount';
+import Button from 'react-bootstrap/esm/Button';
+
 
 
 const Item = ({id, name, img, price, stock}) => {
@@ -15,7 +16,7 @@ const Item = ({id, name, img, price, stock}) => {
               <br/>
               $ {price}
             </Card.Text>
-            <ItemCount initial ={1} stock = {5} onAdd= {(quantity) => console.log ('cantidad agregada', {quantity})} />
+            <Button className='Button btn-warning'>Ver detalle</Button>
           </Card.Body>
         </Card>
       );

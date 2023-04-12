@@ -16,7 +16,7 @@ const products = [
         stock: 10,
     },
     {
-        id:'1',
+        id:'2',
         name: 'BlackWork-2',
         price: 2000,
         img: Img2,
@@ -24,7 +24,7 @@ const products = [
 
     },
     {
-        id:'1',
+        id:'3',
         name: 'BlackWork-3',
         price: 2000,
         img: Img3,
@@ -32,7 +32,7 @@ const products = [
 
     },
     {
-        id:'1',
+        id:'4',
         name: 'BlackWork-4',
         price: 2000,
         img: Img4,
@@ -40,7 +40,7 @@ const products = [
 
     },
     {
-        id:'1',
+        id:'5',
         name: 'BlackWork-5',
         price: 2000,
         img: Img5,
@@ -48,7 +48,7 @@ const products = [
 
     },
     {
-        id:'1',
+        id:'6',
         name: 'BlackWork-6',
         price: 2000,
         img: Img6,
@@ -66,4 +66,12 @@ export const getProducts = () => {
     })
 }
 
-export default products;
+export const getProductsById = (productId) => {
+    return new Promise((resolve) => {
+        setTimeout(() => {
+            resolve (products.find(prod => prod.id === productId))
+        }, 200)
+    })
+};
+
+

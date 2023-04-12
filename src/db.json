@@ -1,0 +1,46 @@
+{
+    "products": [
+      {
+        "id": 1,
+        "name": "BlackWork-1",
+        "price": 2000,
+        "img": "./img/gallery1.jpg",
+        "stock": 10
+      },
+      {
+        "id": 2,
+        "name": "BlackWork-2",
+        "price": 2000,
+        "img": "./img/gallery2.jpg",
+        "stock": 10
+      },
+      {
+        "id": 3,
+        "name": "BlackWork-3",
+        "price": 2000,
+        "img": "./img/gallery3.jpg",
+        "stock": 10
+      },
+      {
+        "id": 4,
+        "name": "BlackWork-4",
+        "price": 2000,
+        "img": "./img/gallery4.jpg",
+        "stock": 10
+      },
+      {
+        "id": 5,
+        "name": "BlackWork-5",
+        "price": 2000,
+        "img": "./img/gallery5.jpg",
+        "stock": 10
+      },
+      {
+        "id": 6,
+        "name": "BlackWork-6",
+        "price": 2000,
+        "img": "./img/gallery6.jpg",
+        "stock": 10
+      }
+    ]
+  }

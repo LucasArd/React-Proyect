@@ -6,9 +6,9 @@ const NavBar = () => {
         <nav className="NavBar-nav">
             <h2 className="nav-h2"> SNTGTRG </h2>
             <div className="nav-categories">
-                <a href="http://localhost:3000/" className="nav-button"> Papel </a>
-                <a href="http://localhost:3000/"  className="nav-button"> Calle </a>
-                <a href="http://localhost:3000/" className="nav-button"> Expos </a>
+                <span href="http://localhost:3000/" className="nav-button"> Papel </span>
+                <span href="http://localhost:3000/"  className="nav-button"> Calle </span>
+                <span href="http://localhost:3000/" className="nav-button"> Expos </span>
             </div>
             <CartWidgets />
 
