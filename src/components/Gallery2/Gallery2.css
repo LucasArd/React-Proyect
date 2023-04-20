@@ -1,0 +1,34 @@
+.gallery-container{
+    display: flex;
+    justify-content: center;
+}
+::-webkit-scrollbar {
+    display: none;
+}
+
+.gallery{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 600px;
+    height: 600px;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.64);
+
+    overflow-y: scroll;
+    scroll-snap-type: y mandatory;
+}
+
+.pics{
+    max-height: 600px;
+    width: 600px;
+}
+
+.imgs{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    scroll-snap-align: center;
+    padding: 1rem;
+
+}
